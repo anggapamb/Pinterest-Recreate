@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "678440739492",
+    "project_id": "pinterest-by-anggapamb",
+    "storage_bucket": "pinterest-by-anggapamb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678440739492:android:7a30cc6d6f0e1c2c17fc31",
+        "android_client_info": {
+          "package_name": "com.anggapambudi.pinterestbyanggapamb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678440739492-84hmve1qncivvaf7sekcqsl7p6j5onv8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anggapambudi.pinterestbyanggapamb",
+            "certificate_hash": "2d34fe8dbb0e11cb9b2cd1e22b84efba1a824ca6"
+          }
+        },
+        {
+          "client_id": "678440739492-0huui3k1b9urdsh2vf0uokfo6614op21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD83N2XiW3q1Bhl_Et0IDkShqlT1P0WhfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678440739492-0huui3k1b9urdsh2vf0uokfo6614op21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

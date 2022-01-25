@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pinterest by AnggaPamb</string>
+    <string name="selamat_datang_di_pinterest">Selamat Datang di Pinterest</string>
+    <string name="this_background">this background</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="selamar_datang_di_pinterest">Selamat Datang di Pinterest</string>
+    <string name="lamp">lamp</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="atau">Atau</string>
+    <string name="atau_sudah_mempunyai_akun">Atau sudah mempunyai akun?</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="username">Username</string>
+</resources>
