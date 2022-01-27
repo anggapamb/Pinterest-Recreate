@@ -66,35 +66,40 @@
             android:layout_marginBottom="@dimen/_10sdp"
             android:layout_below="@id/linear_pinterest">
 
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:boxStrokeColor="@color/colorRed"
+                app:hintTextColor="@color/colorRed"
+                app:startIconDrawable="@drawable/ic_account"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <EditText
+                    android:id="@+id/edt_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:hint="@string/username"
+                    android:inputType="textPersonName|textCapWords"
+                    android:autofillHints="username" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_signup"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/_45sdp"
                 android:onClick="onClick"
                 android:layout_marginStart="@dimen/_20sdp"
-                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginEnd="@dimen/_20sdp"
                 android:backgroundTint="@color/colorRed"
                 app:cornerRadius="@dimen/_12sdp"
-                android:text="@string/sign_up"
+                android:text="@string/get_started"
                 android:textAllCaps="false"
                 android:textColor="@color/white" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_login"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="onClick"
-                android:layout_marginStart="@dimen/_20sdp"
-                android:layout_marginTop="@dimen/_8sdp"
-                android:layout_marginEnd="@dimen/_20sdp"
-                android:text="@string/log_in"
-                app:cornerRadius="@dimen/_12sdp"
-                app:strokeWidth="@dimen/_1sdp"
-                app:strokeColor="@color/colorRed"
-                android:backgroundTint="@color/white"
-                android:textAllCaps="false"
-                android:textColor="@color/colorRed" />
 
         </LinearLayout>
 

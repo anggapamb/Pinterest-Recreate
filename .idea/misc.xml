@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/androidstudio/Pinterest-Recreate/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/androidstudio/Pinterest-Recreate/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/androidstudio/PinterestbyAnggaPamb/app/src/main/res/drawable/bg_signup.xml" value="0.16666666666666666" />
         <entry key="..\:/androidstudio/PinterestbyAnggaPamb/app/src/main/res/drawable/bt_login.xml" value="0.18" />
         <entry key="..\:/androidstudio/PinterestbyAnggaPamb/app/src/main/res/drawable/bt_signup.xml" value="0.2203125" />
@@ -17,12 +19,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.17" />
-      </ProjectState>
-    </option>
   </component>
 </project>

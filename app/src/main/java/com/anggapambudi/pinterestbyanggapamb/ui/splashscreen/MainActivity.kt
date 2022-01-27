@@ -6,6 +6,7 @@ import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.anggapambudi.pinterestbyanggapamb.R
 import com.anggapambudi.pinterestbyanggapamb.databinding.ActivityMainBinding
+import com.anggapambudi.pinterestbyanggapamb.ui.home.HomeActivity
 import com.anggapambudi.pinterestbyanggapamb.ui.login.LoginActivity
 import com.anggapambudi.pinterestbyanggapamb.ui.signup.SignUpActivity
 import com.crocodic.core.base.activity.NoViewModelActivity
@@ -27,8 +28,13 @@ class MainActivity : NoViewModelActivity<ActivityMainBinding>() {
     override fun onClick(v: View?) {
 
         when (v) {
-            binding.btnSignup -> openActivity<SignUpActivity>()
-            binding.btnLogin -> openActivity<LoginActivity>()
+            binding.btnSignup -> {
+                if (binding.edtUsername.text.toString().trim().isEmpty()) {
+                    binding.edtUsername.error = getString(R.string.username_tidak_boleh_kosong)
+                } else {
+                    openActivity<HomeActivity>()
+                }
+            }
         }
 
 

@@ -13,4 +13,6 @@
     <string name="atau_sudah_mempunyai_akun">Atau sudah mempunyai akun?</string>
     <string name="belum_punya_akun">Belum punya akun?</string>
     <string name="username">Username</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="username_tidak_boleh_kosong">Username tidak boleh kosong</string>
 </resources>
